@@ -16,7 +16,7 @@ namespace SecurityDemo
             Console.WriteLine("Certificate Subject is {0}", certificate.Subject);
             Console.WriteLine("Certificate Thumbprint is {0}", certificate.Thumbprint);
 
-            if(certificate.Thumbprint.ToLower() != "b6fdedb685089e37a56cc49406933709df9edde2")
+            if(certificate.Thumbprint.ToLower() != "bbd4c939a77100ab5dcafa505bbc5b11736e78de")
             {
                 Console.WriteLine("Certificate Validation is failed,{0}", certificate.Subject);
                 throw new SecurityTokenException("Unknown certificate");
