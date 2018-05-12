@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ClientProxy\Reference.cs">
+    <Compile Include="Connected Services\ServiceProxy\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -53,32 +53,34 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="Connected Services\ClientProxy\SecurityDemo.xsd">
+    <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ClientProxy\SecurityDemo1.xsd">
+    <None Include="Connected Services\ServiceProxy\SecurityDemo.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ClientProxy\SecurityServiceImpl.wsdl" />
+    <None Include="Connected Services\ServiceProxy\SecurityDemo1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceProxy\SecurityServiceImpl.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ClientProxy\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceProxy\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ClientProxy\SecurityDemo.disco" />
+    <None Include="Connected Services\ServiceProxy\SecurityDemo.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ClientProxy\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceProxy\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ClientProxy\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceProxy\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ClientProxy\Reference.svcmap">
+    <None Include="Connected Services\ServiceProxy\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

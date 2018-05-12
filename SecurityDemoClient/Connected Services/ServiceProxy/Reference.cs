@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SecurityDemoClient.ClientProxy {
+namespace SecurityDemoClient.ServiceProxy {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ClientProxy.SecurityService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceProxy.SecurityService")]
     public interface SecurityService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SecurityService/SayingHello", ReplyAction="http://tempuri.org/SecurityService/SayingHelloResponse")]
@@ -23,12 +23,12 @@ namespace SecurityDemoClient.ClientProxy {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface SecurityServiceChannel : SecurityDemoClient.ClientProxy.SecurityService, System.ServiceModel.IClientChannel {
+    public interface SecurityServiceChannel : SecurityDemoClient.ServiceProxy.SecurityService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class SecurityServiceClient : System.ServiceModel.ClientBase<SecurityDemoClient.ClientProxy.SecurityService>, SecurityDemoClient.ClientProxy.SecurityService {
+    public partial class SecurityServiceClient : System.ServiceModel.ClientBase<SecurityDemoClient.ServiceProxy.SecurityService>, SecurityDemoClient.ServiceProxy.SecurityService {
         
         public SecurityServiceClient() {
         }

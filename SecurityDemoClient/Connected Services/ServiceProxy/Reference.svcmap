@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a1e6bdfb-a478-499e-8566-c27c0bee7a79" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="95e7400c-e3cd-4b42-8de1-5f586a5f3601" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,10 @@
     <MetadataSource Address="http://localhost:8080/SecurityDemo" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="SecurityDemo.xsd" MetadataType="Schema" ID="024e2bc7-12e8-4214-b6e4-8d8c6c959daf" SourceId="1" SourceUrl="http://localhost:8080/SecurityDemo?xsd=xsd0" />
-    <MetadataFile FileName="SecurityDemo.disco" MetadataType="Disco" ID="40995f35-1d62-42d7-af17-425a8f897b46" SourceId="1" SourceUrl="http://localhost:8080/SecurityDemo?disco" />
-    <MetadataFile FileName="SecurityDemo1.xsd" MetadataType="Schema" ID="d6ec92d3-d079-41d9-a7a2-0003493a2ff2" SourceId="1" SourceUrl="http://localhost:8080/SecurityDemo?xsd=xsd1" />
-    <MetadataFile FileName="SecurityServiceImpl.wsdl" MetadataType="Wsdl" ID="4bb87996-0e01-45ee-b2d9-3191ebbab37f" SourceId="1" SourceUrl="http://localhost:8080/SecurityDemo?wsdl" />
+    <MetadataFile FileName="SecurityDemo.xsd" MetadataType="Schema" ID="188e405e-4977-4a38-ad16-fe026d57b923" SourceId="1" SourceUrl="http://localhost:8080/SecurityDemo?xsd=xsd0" />
+    <MetadataFile FileName="SecurityDemo.disco" MetadataType="Disco" ID="9781f2dc-f103-4017-bdd8-39cbd953f61f" SourceId="1" SourceUrl="http://localhost:8080/SecurityDemo?disco" />
+    <MetadataFile FileName="SecurityDemo1.xsd" MetadataType="Schema" ID="02823214-4b8a-43dd-901e-924c29f1f3dc" SourceId="1" SourceUrl="http://localhost:8080/SecurityDemo?xsd=xsd1" />
+    <MetadataFile FileName="SecurityServiceImpl.wsdl" MetadataType="Wsdl" ID="da250359-9662-4f97-bd66-a13472a332df" SourceId="1" SourceUrl="http://localhost:8080/SecurityDemo?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

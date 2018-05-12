@@ -174,7 +174,11 @@
       <wsa10:EndpointReference>
         <wsa10:Address>http://localhost:8080/SecurityDemo/SecurityServiceImpl</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
-          <Dns>localhost</Dns>
+          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+              <X509Certificate>MIIC5zCCAc+gAwIBAgIQL0j5obINmKxKjCSFB1t4NTANBgkqhkiG9w0BAQQFADAWMRQwEgYDVQQDDAtXQ0ZTZXJ2ZXJQSzAeFw0xODA1MTAxMTQxNDlaFw0xOTA1MTAxMjAxNDlaMBYxFDASBgNVBAMMC1dDRlNlcnZlclBLMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArMQtWrDzhXQv50Fi5+I1gnGCzv+VGG7ZC22MwTHa3LgUcL5L6/l3u1ajN1Z2FYBdGG0yN/6LSW1IgFHLbMJPAeSTAh9m9oWK9LO0TU7uEzIg8QlVkLOJeJYeJ1hsNp5h2lQ5Ia5yGxJf2lrPG1gmOzYXPRX/uSmalLYcLs/4sIpxgGFBsT2IUav9gpjZGe06ludV7j+XUarKB0/AlrdpORLQEy3lc9iVzgYZ7GaefQK1OKv02fkGqRy7gdl0WXVKZdsz43QBqUVmABd5r7fuZQvHiTdT6A//tShiDIvhpTwVGVh7Tf/jUg0e3x/AwCvZae2zIFZMO+eLFS2EbT5r0QIDAQABozEwLzAOBgNVHQ8BAf8EBAMCAgQwHQYDVR0OBBYEFKT856GIcPKd96SZra3RWERFfSElMA0GCSqGSIb3DQEBBAUAA4IBAQCC8p3dzDouM6MsI5qe3kxnv8TDnCy5jUuJEO3yy9k7deFqKFN3SYLl/3543DHxNzr39ALTKWRx3lxy8FD4QnK9h+hIsmFVV89HxVdqvOdcU4DdHyy5xiUMBoikPGjvM0e/+D/lp5LWzsoShgA9Eoy+7KevL/oHzWcUVvOca38SsdVIy5wXPZIqQYKx4kQneh5Ja2SqQCBn5fXlNl9u8Jv4ff7o6Jc7bUz0VJ6f09tcD0VWoTgd1UtD+I8p7TG0cshMWBKK9WFXNCP/S2hDE05HMWiValDu4r2W2YN3AT7Vjgthgu8NwquMppaDDUsjt3DXUbxliof/LPvWuvyZX0Id</X509Certificate>
+            </X509Data>
+          </KeyInfo>
         </Identity>
       </wsa10:EndpointReference>
     </wsdl:port>
